@@ -2,15 +2,15 @@ export const socialLinks = [
   { label: "GitHub", href: "https://github.com/trffnsec" },
   { label: "X", href: "https://x.com/trffnsec" },
   { label: "Medium", href: "https://medium.com/@trffnsec" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/tr-ffn" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/trffnsec" },
   { label: "Instagram", href: "https://instagram.com/trff.in" },
   { label: "YouTube", href: "https://youtube.com/c/trffnsec" },
 ];
 
 export const posts = [
   {
-    title: "How a YouTube Video Led Me to $650 – My Host Header Injection Adventure",
-    excerpt: "A real-world bug bounty story where a simple YouTube video sparked a successful Host Header Injection discovery — from mindset and testing to a $650 reward.",
+    title: "How a YouTube Video Led Me to $650 - My Host Header Injection Adventure",
+    excerpt: "A real-world bug bounty story where a simple YouTube video sparked a successful Host Header Injection discovery - from mindset and testing to a $650 reward.",
     date: "2024",
     tag: "BUG BOUNTY / WEB SECURITY",
     href: "https://medium.com/@trffnsec/how-a-youtube-video-led-me-to-650-my-host-header-injection-adventure-696fd82b2886",
@@ -18,14 +18,14 @@ export const posts = [
   },
   {
     title: "How a Lazy Bug Bounty Hunter got a place on NASA HOF (An XSS Story)",
-    excerpt: "How a laid-back afternoon on NASA subdomains turned into an XSS finding and a place in NASA's Hall of Fame — including recon, payloads, and reporting lessons.",
+    excerpt: "How a laid-back afternoon on NASA subdomains turned into an XSS finding and a place in NASA's Hall of Fame - including recon, payloads, and reporting lessons.",
     date: "NOV 22, 2025",
     tag: "XSS / FIELD NOTE",
     href: "https://medium.com/@trffnsec/how-a-lazy-bug-bounty-hunter-got-a-place-on-nasa-hof-an-xss-story-e14fccc326e2",
     image: "https://i.makeagif.com/media/11-30-2015/JoHJug.gif",
   },
   {
-    title: "How I Found a 100€ Bug at DCU – From Not Applicable to Cashing In",
+    title: "How I Found a 100€ Bug at DCU - From Not Applicable to Cashing In",
     excerpt: "A Medium-severity finding at DCU that moved from Not Applicable to a successful reward, with the research methodology and reporting process behind it.",
     date: "OCT 15, 2025",
     tag: "METHODOLOGY / REPORTING",
