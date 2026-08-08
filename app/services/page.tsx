@@ -53,7 +53,7 @@ export default function ServicesPage() {
       <section className="contact-section shell compact-contact">
         <p className="section-overline">NEED A SECOND SET OF EYES?</p>
         <h2>Let&apos;s talk <em>scope.</em></h2>
-        <a className="button button-primary contact-button" href="mailto:augustinetriffin@gmail.com"><span>CONTACT TRFFNSEC</span><span>↗</span></a>
+        <a className="button button-primary contact-button" href="mailto:trffnsec@gmail.com"><span>CONTACT TRFFNSEC</span><span>↗</span></a>
       </section>
     </main>
   );
