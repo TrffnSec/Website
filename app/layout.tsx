@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TrffnSec — Cybersecurity Portfolio",
+  title: "TrffnSec - Cybersecurity Portfolio",
   description:
-    "Portfolio of Triffin Augustine (TrffnSec) — offensive web security researcher, penetration tester, bug bounty hunter, and trainer.",
+    "Portfolio of Triffin Augustine (TrffnSec) - offensive web security researcher, penetration tester, bug bounty hunter, and trainer.",
   other: { "codex-preview": "development" },
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
