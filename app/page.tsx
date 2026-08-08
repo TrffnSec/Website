@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <div className="portrait-card depth-card">
             <div className="portrait-ui"><span>SUBJECT / TRFFNSEC</span><span>FOCUS 98%</span></div>
-            <img src="https://raw.githubusercontent.com/TrffnSec/trffnsec/refs/heads/main/assets/IMG_9706.JPG" alt="Triffin Augustine, TrffnSec" loading="lazy" />
+            <img src="https://raw.githubusercontent.com/TrffnSec/trffnsec/refs/heads/main/assets/2DFCE5C9-9E56-45D4-B3F8-4F67A09EF7B3.PNG" alt="Triffin Augustine, TrffnSec" loading="lazy" />
             <div className="portrait-reticle" aria-hidden="true"><i /><i /></div>
             <div className="portrait-caption"><span>OFFENSIVE SECURITY</span><strong>TR / FFN</strong></div>
           </div>
