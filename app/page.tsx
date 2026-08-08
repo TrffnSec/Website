@@ -147,7 +147,7 @@ export default function Home() {
         <div className="contact-orbit" aria-hidden="true"><i /><i /><b>T/</b></div>
         <p className="section-overline">HAVE A TARGET / NEED A SECOND SET OF EYES?</p>
         <h2>Let&apos;s find the crack<br /><em>before they do.</em></h2>
-        <a className="button button-primary contact-button" href="mailto:augustinetriffin@gmail.com"><span>augustinetriffin@gmail.com</span><span>↗</span></a>
+        <a className="button button-primary contact-button" href="mailto:trffnsec@gmail.com"><span>trffnsec@gmail.com</span><span>↗</span></a>
       </section>
     </main>
   );
