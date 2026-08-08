@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { HallGallery } from "../../components/hall-gallery";
 
-export const metadata: Metadata = { title: "Hall of Fame — TrffnSec" };
+export const metadata: Metadata = { title: "Hall of Fame - TrffnSec" };
 
 export default function HallOfFamePage() {
   return (
