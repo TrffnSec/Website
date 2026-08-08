@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { additionalResources, books, learningLinks } from "../../lib/content";
 
-export const metadata: Metadata = { title: "Bug Bounty Resources — TrffnSec" };
+export const metadata: Metadata = { title: "Bug Bounty Resources - TrffnSec" };
 
 const fundamentals = [
   ["HTML", "Understand forms, iframes, document structure, and how application data moves through the page."],
@@ -11,7 +11,7 @@ const fundamentals = [
 ] as const;
 
 const recon = [
-  ["SUBDOMAIN ENUM", "Amass, Subfinder, Assetfinder — map the names before you map the application."],
+  ["SUBDOMAIN ENUM", "Amass, Subfinder, Assetfinder - map the names before you map the application."],
   ["ENDPOINT DISCOVERY", "httpx, ffuf, crawling, and application navigation to uncover less obvious paths."],
   ["WEB ARCHIVES", "Use historical URLs to find deprecated endpoints and old application behaviour."],
   ["GITHUB DORKS", "Search public code for forgotten endpoints, configuration, and other exposed clues."],
@@ -25,7 +25,7 @@ export default function ResourcesPage() {
         <div className="resource-hero-copy">
           <p className="section-overline">THE COMPLETE GUIDE / START HERE</p>
           <h1>Getting started<br />in <em>bug bounty.</em></h1>
-          <p>Before you run the tools, understand the system. This is the path I&apos;d give someone who wants enough foundation to know why a test works — not just what command to paste.</p>
+          <p>Before you run the tools, understand the system. This is the path I&apos;d give someone who wants enough foundation to know why a test works - not just what command to paste.</p>
         </div>
         <div className="learning-map depth-card" aria-label="Learning map">
           <span className="map-label">LEARNING_PATH.TRACE</span>
@@ -52,7 +52,7 @@ export default function ResourcesPage() {
         <div className="shell">
           <div className="section-kicker"><span>02</span><p>LEARNING PATH / PRACTICE</p></div>
           <div className="academy-grid">
-            <div className="academy-copy"><h2>Stop reading.<br /><em>Touch the app.</em></h2><p>Once the fundamentals make sense, hands-on labs turn vocabulary into instinct. Start with PortSwigger&apos;s Web Security Academy, then use the OWASP Top 10 as a map — not a finish line.</p></div>
+            <div className="academy-copy"><h2>Stop reading.<br /><em>Touch the app.</em></h2><p>Once the fundamentals make sense, hands-on labs turn vocabulary into instinct. Start with PortSwigger&apos;s Web Security Academy, then use the OWASP Top 10 as a map - not a finish line.</p></div>
             <div className="academy-links">
               {learningLinks.slice(3).map(([title, text, href], index) => <a href={href} target="_blank" rel="noreferrer" key={title}><span>0{index + 1}</span><div><strong>{title}</strong><small>{text}</small></div><i>↗</i></a>)}
             </div>
