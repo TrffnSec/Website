@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { acknowledgements } from "../../lib/content";
 
-export const metadata: Metadata = { title: "About — TrffnSec" };
+export const metadata: Metadata = { title: "About - TrffnSec" };
 
 export default function AboutPage() {
   return (
@@ -27,7 +27,7 @@ export default function AboutPage() {
           <h2>I like finding the part of a system that <em>doesn&apos;t behave.</em></h2>
           <p>I&apos;m Triffin Augustine, widely known in the security community as TrffnSec. I&apos;m a penetration tester, bug bounty hunter, and security researcher with a strong passion for discovering real-world vulnerabilities and helping organizations strengthen their security posture.</p>
           <p>My journey into ethical hacking started from pure curiosity and evolved into a professional pursuit as I began hunting vulnerabilities across public and private bug bounty programs. Over time, I&apos;ve identified and responsibly disclosed security issues including XSS, Host Header Injection, IDOR, access control flaws, and logic vulnerabilities across well-known platforms, universities, and enterprise applications.</p>
-          <p>Today, I document findings through detailed write-ups on Medium, sharing attack paths, methodologies, and lessons learned. Alongside hunting, I focus on continuous learning, tool development, and community knowledge-sharing — practical, experience-driven security research is the whole point.</p>
+          <p>Today, I document findings through detailed write-ups on Medium, sharing attack paths, methodologies, and lessons learned. Alongside hunting, I focus on continuous learning, tool development, and community knowledge-sharing - practical, experience-driven security research is the whole point.</p>
           <div className="focus-tags"><span>WEB SECURITY</span><span>RECON</span><span>BUG BOUNTY</span><span>TOOLING</span><span>TRAINING</span></div>
         </div>
       </section>
