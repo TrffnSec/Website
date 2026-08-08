@@ -143,7 +143,7 @@ export function SiteChrome({ children }: { children: ReactNode }) {
           {nav.map(([label, href]) => (
             <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>
           ))}
-          <a className="nav-contact" href="mailto:augustinetriffin@gmail.com" onClick={() => setMenuOpen(false)}>
+          <a className="nav-contact" href="mailto:trffnsec@gmail.com" onClick={() => setMenuOpen(false)}>
             CONNECT <span>↗</span>
           </a>
         </nav>
@@ -163,7 +163,7 @@ export function SiteChrome({ children }: { children: ReactNode }) {
           <div className="footer-top">
             <a className="footer-brand" href="/"><span>T/</span><strong>TRFFNSEC</strong></a>
             <p>OFFENSIVE WEB SECURITY RESEARCHER<br />PENTESTER / BUG BOUNTY HUNTER / TRAINER</p>
-            <a className="footer-mail" href="mailto:augustinetriffin@gmail.com">LET&apos;S CONNECT ↗</a>
+            <a className="footer-mail" href="mailto:trffnsec@gmail.com">LET&apos;S CONNECT ↗</a>
           </div>
           <div className="footer-bottom">
             <span>© 2026 TRFFNSEC</span>
@@ -171,7 +171,7 @@ export function SiteChrome({ children }: { children: ReactNode }) {
               <a href="https://github.com/trffnsec" target="_blank" rel="noreferrer">GITHUB</a>
               <a href="https://x.com/trffnsec" target="_blank" rel="noreferrer">X</a>
               <a href="https://medium.com/@trffnsec" target="_blank" rel="noreferrer">MEDIUM</a>
-              <a href="https://www.linkedin.com/in/tr-ffn" target="_blank" rel="noreferrer">LINKEDIN</a>
+              <a href="https://www.linkedin.com/in/trffnsec" target="_blank" rel="noreferrer">LINKEDIN</a>
               <a href="https://instagram.com/trff.in" target="_blank" rel="noreferrer">INSTAGRAM</a>
             </div>
             <span>BUILD / BREAK / SHARE</span>
