@@ -17,7 +17,7 @@ export default function ServicesPage() {
           <p className="section-overline"><span className="status-dot" /> OFFENSIVE WEB SECURITY / SERVICES</p>
           <h1>Finding web<br />vulnerabilities<br /><em>before attackers do.</em></h1>
           <RotatingQuery />
-          <a className="button button-primary" href="mailto:augustinetriffin@gmail.com"><span>Start a conversation</span><span>↗</span></a>
+          <a className="button button-primary" href="mailto:trffnsec@gmail.com"><span>Start a conversation</span><span>↗</span></a>
         </div>
         <div className="service-radar depth-card" aria-hidden="true">
           <div className="radar-grid" /><div className="radar-circle r1" /><div className="radar-circle r2" /><div className="radar-circle r3" />
