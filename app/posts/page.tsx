@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { posts } from "../../lib/content";
 
-export const metadata: Metadata = { title: "Research — TrffnSec" };
+export const metadata: Metadata = { title: "Research - TrffnSec" };
 
 export default function PostsPage() {
   return (
