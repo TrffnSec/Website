@@ -5,7 +5,7 @@ const acknowledgementNames = ["APPLE ×5", "NASA", "TRIVAGO", "HARMAN", "DCU", "
 const disciplines = [
   { no: "01", code: "RECON", title: "Map the surface", text: "Asset discovery, endpoint mapping, JavaScript analysis, and the quiet corners where overlooked attack surface tends to live." },
   { no: "02", code: "WEB", title: "Break assumptions", text: "Web application testing with an emphasis on access control, XSS, logic flaws, injection paths, and unintended trust boundaries." },
-  { no: "03", code: "PROVE", title: "Show real impact", text: "A finding is strongest when the attacker path is concrete. I chase reproducibility, impact, and evidence — not scanner noise." },
+  { no: "03", code: "PROVE", title: "Show real impact", text: "A finding is strongest when the attacker path is concrete. I chase reproducibility, impact, and evidence - not scanner noise." },
   { no: "04", code: "SHARE", title: "Teach the trail", text: "Write-ups, training, tools, and lessons from real hunts, so useful methodology survives longer than a single report." },
 ];
 
@@ -27,7 +27,7 @@ export default function Home() {
 
           <p className="hero-role reveal-in delay-2">Offensive web <span>security researcher.</span></p>
           <p className="hero-lede reveal-in delay-2">
-            I find real-world vulnerabilities before attackers do — through recon, web hacking,
+            I find real-world vulnerabilities before attackers do - through recon, web hacking,
             bug bounty research, and an unhealthy curiosity for how systems break.
           </p>
 
