@@ -33,7 +33,7 @@ export default function Home() {
 
           <div className="hero-actions reveal-in delay-3">
             <a className="button button-primary" href="/posts"><span>Explore research</span><span aria-hidden="true">↗</span></a>
-            <a className="button button-quiet" href="mailto:augustinetriffin@gmail.com"><span>Let&apos;s connect</span><span aria-hidden="true">→</span></a>
+            <a className="button button-quiet" href="mailto:trffnsec@gmail.com"><span>Let&apos;s connect</span><span aria-hidden="true">→</span></a>
           </div>
 
           <div className="hero-proof reveal-in delay-3" aria-label="Selected achievements">
