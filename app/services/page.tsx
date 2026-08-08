@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { RotatingQuery } from "../../components/rotating-query";
 
-export const metadata: Metadata = { title: "Services — TrffnSec" };
+export const metadata: Metadata = { title: "Services - TrffnSec" };
 
 const services = [
   { code: "SURFACE", title: "Attack Surface & Recon", text: "A map-first look at domains, endpoints, JavaScript, forgotten paths, and the assumptions hiding between assets.", tags: ["ASSET DISCOVERY", "JS ANALYSIS", "ENDPOINTS", "RECON"] },
