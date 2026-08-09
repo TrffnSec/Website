@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import { SiteChrome } from "../components/site-chrome";
 import "./globals.css";
 
@@ -17,20 +18,33 @@ export const metadata: Metadata = {
   title: "TrffnSec - Cybersecurity Portfolio",
   description:
     "Portfolio of Triffin Augustine (TrffnSec) - offensive web security researcher, penetration tester, bug bounty hunter, and trainer.",
-  other: { "codex-preview": "development" },
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  other: {
+    "codex-preview": "development",
+  },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+  },
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <SiteChrome>{children}</SiteChrome>
-        
-<!-- Cloudflare Web Analytics -->
-  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c2ca57c7563b4d3d80080ce05aa71ad7"}'></script>
-<!-- End Cloudflare Web Analytics -->
-  
+
+        <Script
+          id="cloudflare-web-analytics"
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          strategy="afterInteractive"
+          data-cf-beacon={JSON.stringify({
+            token: "c2ca57c7563b4d3d80080ce05aa71ad7",
+          })}
+        />
       </body>
     </html>
   );
