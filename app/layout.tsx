@@ -26,6 +26,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <SiteChrome>{children}</SiteChrome>
+        
+<!-- Cloudflare Web Analytics -->
+  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c2ca57c7563b4d3d80080ce05aa71ad7"}'></script>
+<!-- End Cloudflare Web Analytics -->
+  
       </body>
     </html>
   );
