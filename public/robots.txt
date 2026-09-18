@@ -1,0 +1,22 @@
+# TRFFNSEC // perimeter control
+# powered by the assumption that you care.
+
+# [01] identify yourself.
+User-agent: *
+# "everyone" is a terrible answer. proceed.
+
+# [02] checking clearance...
+Allow: /
+Allow: /admin.php
+# clearance granted by a file with no authority.
+
+# [03] activating countermeasures...
+# ...
+# i am literally a text file. what were you expecting?
+
+# you can ignore this file.
+# what you do when nothing stops you
+# is the interesting part.
+
+# [04] logging you out...
+# also not a thing i can do.
