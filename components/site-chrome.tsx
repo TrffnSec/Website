@@ -8,6 +8,7 @@ const nav = [
   ["Hall of fame", "/hall-of-fame"],
   ["About", "/about"],
   ["Services", "/services"],
+  ["Projects", "/projects"],
   ["Resources", "/resources"],
 ];
 
