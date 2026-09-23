@@ -378,7 +378,7 @@ export default function ProjectsPage() {
         <div className="contact-orbit" aria-hidden="true">
           <i />
           <i />
-          <b>VW</b>
+          <b>TR</b>
         </div>
 
         <p className="section-overline">SOURCE AVAILABLE / BREAK IT RESPONSIBLY</p>
