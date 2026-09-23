@@ -3,9 +3,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Projects - TrffnSec",
+  title: "VulnWatch - TrffnSec Projects",
   description:
-    "Security tools, experiments, and research projects built by TrffnSec.",
+    "VulnWatch is a passive browser security tool for technology detection, version evidence, and vulnerability intelligence.",
 };
 
 const vulWatchFeatures = [
