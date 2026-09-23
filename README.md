@@ -1,26 +1,9 @@
-# TrffnSec — interactive cybersecurity portfolio
+# TrffnSec - interactive cybersecurity portfolio
 
 Editable source for the TrffnSec portfolio. The visual direction is a dark,
 interactive security-lab interface with a cursor-reactive 3D core, animated
 radar, 3D Hall of Fame deck, depth cards, scrolling signal rails, and responsive
 mobile navigation.
-
-## Where to edit
-
-- `app/page.tsx` — Home
-- `app/about/page.tsx` — About
-- `app/posts/page.tsx` — Research / Medium write-ups
-- `app/hall-of-fame/page.tsx` — Hall of Fame
-- `app/services/page.tsx` — Services
-- `app/resources/page.tsx` — Bug bounty learning guide
-- `lib/content.ts` — posts, certificates, links, companies, videos, books
-- `components/site-chrome.tsx` — navigation, animated background, footer
-- `components/hall-gallery.tsx` — interactive 3D achievement gallery
-- `app/globals.css` — complete visual system and responsive layout
-
-The main accent is `--acid` near the top of `app/globals.css`; changing that
-one value is the quickest way to recolor the whole interface. Remote image URLs
-are kept together with the content they belong to, making them easy to replace.
 
 ## Runtime
 
