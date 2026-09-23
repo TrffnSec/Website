@@ -62,31 +62,32 @@ export default function ProjectsPage() {
           <span>06</span>
           <i />
         </div>
-
+      
+        <div className="inner-hero-copy">
           <p className="section-overline">
             PROJECTS / APPARENTLY I HAVE RANGE
           </p>
-          
+      
           <h1>
             Built to solve
             <br />
             <em>suspiciously different problems.</em>
           </h1>
-          
+      
           <p>
             Security tooling, research experiments, browser utilities and,
             for reasons I still cannot fully explain, biomedical electrochemistry.
             Welcome to the repo where career boundaries go to die.
           </p>
         </div>
-
+      
         <div className="inner-hero-code">
           <span>PROJECTS</span>
           <strong>{String(projects.length).padStart(2, "0")}</strong>
-
+      
           <span>STATUS</span>
           <b>BUILDING</b>
-
+      
           <span>MODE</span>
           <strong>PUBLIC</strong>
         </div>
