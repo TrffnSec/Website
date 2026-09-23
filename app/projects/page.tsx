@@ -63,20 +63,20 @@ export default function ProjectsPage() {
           <i />
         </div>
 
-        <div className="inner-hero-copy">
           <p className="section-overline">
-            PROJECTS / THINGS I BUILT BECAUSE I NEEDED THEM
+            PROJECTS / APPARENTLY I HAVE RANGE
           </p>
-
+          
           <h1>
             Built to solve
             <br />
-            <em>my own problems.</em>
+            <em>suspiciously different problems.</em>
           </h1>
-
+          
           <p>
-            Security tools, research experiments, browser utilities, and
-            whatever else escaped the terminal and became an actual project.
+            Security tooling, research experiments, browser utilities and,
+            for reasons I still cannot fully explain, biomedical electrochemistry.
+            Welcome to the repo where career boundaries go to die.
           </p>
         </div>
 
@@ -106,8 +106,9 @@ export default function ProjectsPage() {
           </h2>
 
           <p>
-            Some are polished. Some are experiments. All of them started
-            because doing something manually one more time felt unreasonable.
+            Some solve security problems. One solves biomedical research problems
+            because a friend asked nicely and apparently that is enough to change
+            my entire technical domain for a weekend.
           </p>
         </div>
 
@@ -147,9 +148,14 @@ export default function ProjectsPage() {
                   </div>
 
                   <h2>{project.title}</h2>
-
+                  
                   <p>{project.description}</p>
-
+                  
+                  <p className="project-index-note">
+                    <span>// FIELD NOTE</span>
+                    {project.note}
+                  </p>
+                  
                   <div className="project-index-tags">
                     {project.tags.map((tag) => (
                       <span key={tag}>{tag}</span>
@@ -177,7 +183,7 @@ export default function ProjectsPage() {
 
           <article className="project-index-card project-index-placeholder depth-card">
             <div className="project-placeholder-inner">
-              <span>02 / NEXT</span>
+              <span>03 / NEXT</span>
 
               <div className="project-placeholder-glyph" aria-hidden="true">
                 <i />
@@ -185,11 +191,12 @@ export default function ProjectsPage() {
                 <b>+</b>
               </div>
 
-              <h3>Something else is cooking.</h3>
-
+              <h3>Whatever happens next.</h3>
+              
               <p>
-                More security tooling and research experiments will appear here
-                when they survive long enough to deserve a name.
+                Probably security tooling. Possibly something from another scientific
+                discipline I have absolutely no business entering. History suggests
+                both are equally possible.
               </p>
 
               <code>STATUS / BUILDING</code>
