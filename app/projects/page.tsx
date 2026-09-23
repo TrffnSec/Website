@@ -15,6 +15,8 @@ const projects = [
     code: "VULNWATCH",
     description:
       "A Chrome extension for passive technology detection, version evidence, and known-version vulnerability intelligence.",
+    note:
+      "Built because copying version numbers into vulnerability databases all day was starting to feel less like hacking and more like unpaid data entry.",
     tags: [
       "CHROME",
       "SECURITY",
@@ -26,6 +28,29 @@ const projects = [
       "https://raw.githubusercontent.com/TrffnSec/VulnWatch/main/screenshots/overview-dark.png",
     href: "/projects/vulnweb",
     github: "https://github.com/TrffnSec/VulnWatch",
+  },
+
+  {
+    no: "02",
+    status: "ACTIVE",
+    version: "v0.2.2",
+    title: "CV Analysis Studio",
+    code: "BIO???",
+    description:
+      "A Streamlit application for cyclic-voltammetry data analysis, marker review, electrochemical calculations, and Excel export.",
+    note:
+      "Built for a friend's biomedical research project. I do cybersecurity. Somehow I ended up calculating IPA, IPC and ΔE. Nobody knows how we got here.",
+    tags: [
+      "BIOMEDICAL",
+      "PYTHON",
+      "STREAMLIT",
+      "CV ANALYSIS",
+      "EXCEL",
+    ],
+    image:
+      "https://opengraph.githubassets.com/cv-analysis-studio/TrffnSec/cv-analysis-studio",
+    href: "/projects/cv-analysis-studio",
+    github: "https://github.com/TrffnSec/cv-analysis-studio",
   },
 ] as const;
 
