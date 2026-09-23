@@ -1584,3 +1584,22 @@ button, a { -webkit-tap-highlight-color: transparent; }
     min-height: 250px;
   }
 }
+
+/* Project field notes */
+
+.project-index-note {
+  margin-top: 20px !important;
+  padding: 15px 16px;
+  border-left: 2px solid rgba(140,255,50,.45);
+  background: rgba(140,255,50,.025);
+  color: #78847a !important;
+  font: 500 10px/1.7 var(--font-geist-mono), monospace !important;
+}
+
+.project-index-note span {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--acid);
+  font-size: 7px;
+  letter-spacing: .12em;
+}
